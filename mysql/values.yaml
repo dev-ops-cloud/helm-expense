@@ -1,4 +1,9 @@
+# statefulset:
+#   replicas: 3
+#   version: 2.0.0
+#   storage: 1Gi
+
 statefulset:
-  replicas: 3
-  version: 2.0.0
+  version: 1.0.0
   storage: 1Gi
+  replicas: 3
